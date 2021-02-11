@@ -1,0 +1,27 @@
+:root {
+  --color-bg: #f8fafc;
+  --color-text: #171717;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background-color: var(--color-bg);
+  color: #171717;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", serif;
+}

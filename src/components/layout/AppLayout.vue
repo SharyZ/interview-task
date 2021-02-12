@@ -1,6 +1,10 @@
 <template>
   <div class="app-layout">
     <app-header />
+    <app-hero
+      title="Our products"
+      subtitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+    />
     <main class="content">
       <app-container>
         <slot></slot>
